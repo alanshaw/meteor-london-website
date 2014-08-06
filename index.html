@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Meteor London</title>
+<link href='http://fonts.googleapis.com/css?family=Raleway%20Dots' rel='stylesheet' type='text/css'>
+<style>
+  html, body {
+    height: 100%;
+  }
+  body {
+    margin: 0;
+  }
+  #hero {
+    position: relative;
+    background: #000 url(bg.jpg);
+    background-size: cover;
+    height: 100%;
+  }
+  #logo {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -50px;
+    text-align: center;
+  }
+  #logo h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 84px;
+    font-family: 'Raleway Dots', serif;
+    font-weight: normal;
+    line-height: 100px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    margin: 0;
+  }
+  /*#logo::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin:0 0 0 -50px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: inset 8px 4px 4px rgba(0,0,0,0.5), 0 0 5px #000;
+  }*/
+  p {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    opacity: 0.8;
+    margin-top: 0;
+  }
+  img {
+    border: 2px solid #fff;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px #000;
+    border-radius: 50%;
+    margin: 0 10px;
+    opacity: 0.8;
+    transition: opacity 0.25s ease-in;
+  }
+  img:hover {
+    opacity: 1;
+  }
+</style>
+</head>
+<body>
+  <div id="hero">
+    <div id="logo">
+      <h1>Meteor London</h1>
+      <p>Meteor development specialists based in London, UK</p>
+      <img src="https://twitter.com/api/users/profile_image/_alanshaw?size=bigger" title="Alan Shaw">
+      <img src="https://twitter.com/api/users/profile_image/cwaring?size=bigger" title="Oli Evans">
+      <img src="https://en.gravatar.com/avatar/1114a99d8da01f890f39c02bd2b1bfc3" title="Chris Waring">
+    </div>
+  </div>
+</body>
+</html>
